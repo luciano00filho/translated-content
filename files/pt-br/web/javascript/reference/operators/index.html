@@ -8,7 +8,7 @@ translation_of: Web/JavaScript/Reference/Operators
 ---
 <div>{{jsSidebar("Operadores")}}</div>
 
-<p>Este capítulo documenta todos os operadores, expressões e keywords da linguagem JavaScript .</p>
+<p>Este capítulo documenta todos os operadores, expressões e palavras-chave da linguagem JavaScript.</p>
 
 <h2 id="Expressões_e_operadores_por_categoria">Expressões e operadores por categoria</h2>
 
@@ -32,33 +32,33 @@ translation_of: Web/JavaScript/Reference/Operators
  <dt>{{experimental_inline}} {{jsxref("Operators/yield*", "yield*")}}</dt>
  <dd>Delegar a outra função gerador ou objeto iterável.</dd>
  <dt>{{jsxref("Global_Objects/Array", "[]")}}</dt>
- <dd>Array initializer/literal syntax.</dd>
+ <dd>Inicializador de vetor/sintaxe literal.</dd>
  <dt>{{jsxref("Operators/Object_initializer", "{}")}}</dt>
- <dd>Object initializer/literal syntax.</dd>
+ <dd>Inicializador de objeto/sintaxe literal.</dd>
  <dt>{{jsxref("Global_Objects/RegExp", "/ab+c/i")}}</dt>
- <dd>Regular expression literal syntax.</dd>
+ <dd>Sintaxe literal de expressão regular.</dd>
  <dt>{{experimental_inline}} {{jsxref("Operators/Array_comprehensions", "[for (x of y) x]")}}</dt>
- <dd>Array comprehensions.</dd>
+ <dd>Compreensão de vetores.</dd>
  <dt>{{experimental_inline}} {{jsxref("Operators/Generator_comprehensions", "(for (x of y) y)")}}</dt>
- <dd>Generator comprehensions.</dd>
+ <dd>Compreensão de geradores.</dd>
  <dt>{{jsxref("Operators/Grouping", "( )")}}</dt>
- <dd>Grouping operator.</dd>
+ <dd>Operador de agrupamento.</dd>
 </dl>
 
-<h3 id="Left-hand-side_expressions">Left-hand-side expressions</h3>
+<h3 id="Left-hand-side_expressions">Expressões de "valores à esquerdo"</h3>
 
-<p>Left values are the destination of an assignment.</p>
+<p>Valores à esquerda são o destino de uma atribuição (de conteúdo para uma variável).</p>
 
 <dl>
  <dt>{{jsxref("Operators/Property_accessors", "Property accessors", "", 1)}}</dt>
- <dd>Member operators provide access to a property or method of an object<br>
+ <dd>Operadores de membro dão acesso a propriedades ou métodos de um objeto<br>
  (<code>object.property</code> and <code>object["property"]</code>).</dd>
  <dt>{{jsxref("Operators/new", "new")}}</dt>
- <dd>The <code>new</code> operator creates an instance of a constructor.</dd>
+ <dd>O operador <code>new</code> cria uma instância de um construtor.</dd>
  <dt>{{experimental_inline}} {{jsxref("Operators/super", "super")}}</dt>
- <dd>The <code>super</code> keyword calls the parent constructor.</dd>
+ <dd>A palavra-chave <code>super</code> chama o construtor pai.</dd>
  <dt>{{experimental_inline}} {{jsxref("Operators/Spread_operator", "...obj")}}</dt>
- <dd>The spread operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.</dd>
+ <dd>O operador de propagação permite que uma expressão seja expandida em lugares onde múltiplos argumentos (para chamar funções) ou múltiplos elementos (para vetores literais) são esperados.</dd>
 </dl>
 
 <h3 id="Incremento_e_decremento">Incremento e decremento</h3>
@@ -76,30 +76,30 @@ translation_of: Web/JavaScript/Reference/Operators
  <dd>Operador prefixo para decremento.</dd>
 </dl>
 
-<h3 id="Unary_operators">Unary operators</h3>
+<h3 id="Unary_operators">Operadores unários</h3>
 
-<p>A unary operation is operation with only one operand.</p>
+<p>Uma operação unária possui um único operando.</p>
 
 <dl>
  <dt>{{jsxref("Operators/delete", "delete")}}</dt>
- <dd>The <code>delete</code> operator deletes a property from an object.</dd>
+ <dd>O operador <code>delete</code> apaga uma propriedade de um objeto.</dd>
  <dt>{{jsxref("Operators/void", "void")}}</dt>
- <dd>The <code>void</code> operator discards an expression's return value.</dd>
+ <dd>O operador <code>void</code> descarta o valor retornado por uma função.</dd>
  <dt>{{jsxref("Operators/typeof", "typeof")}}</dt>
- <dd>The <code>typeof</code> operator determines the type of a given object.</dd>
+ <dd>O operador <code>typeof</code> determina o tipo de um objeto.</dd>
  <dt>{{jsxref("Operators/Arithmetic_Operators", "+", "#Unary_plus")}}</dt>
- <dd>The unary plus operator converts its operand to Number type.</dd>
+ <dd>O operador unário (+) converte seu operando para o tipo Number.</dd>
  <dt>{{jsxref("Operators/Arithmetic_Operators", "-", "#Unary_negation")}}</dt>
- <dd>The unary negation operator converts its operand to Number type and then negates it.</dd>
+ <dd>O operador unário de negação converte seu operando para o tipo Number e depois nega o mesmo.</dd>
  <dt>{{jsxref("Operators/Bitwise_Operators", "~", "#Bitwise_NOT")}}</dt>
- <dd>Bitwise NOT operator.</dd>
+ <dd>Operador NOT bit-a-bit.</dd>
  <dt>{{jsxref("Operators/Logical_Operators", "!", "#Logical_NOT")}}</dt>
- <dd>Logical NOT operator.</dd>
+ <dd>Operador NOT lógico.</dd>
 </dl>
 
 <h3 id="Operadores_aritméticos">Operadores aritméticos</h3>
 
-<p>Arithmetic operators take numerical values (either literals or variables) as their operands and return a single numerical value.</p>
+<p>Operadores aritméticos consideram valores numéricos (literais ou variáveis) como operandos e retornam um valor numérico.</p>
 
 <dl>
  <dt>{{jsxref("Operators/Arithmetic_Operators", "+", "#Addition")}}</dt>
@@ -111,7 +111,7 @@ translation_of: Web/JavaScript/Reference/Operators
  <dt>{{jsxref("Operators/Arithmetic_Operators", "*", "#Multiplication")}}</dt>
  <dd>Operador de multiplicação.</dd>
  <dt>{{jsxref("Operators/Arithmetic_Operators", "%", "#Remainder")}}</dt>
- <dd>Remainder operator.</dd>
+ <dd>Operador de resto de divisão.</dd>
 </dl>
 
 <h3 id="Operadores_relacionais">Operadores relacionais</h3>
@@ -120,9 +120,9 @@ translation_of: Web/JavaScript/Reference/Operators
 
 <dl>
  <dt>{{jsxref("Operators/in", "in")}}</dt>
- <dd>The <code>in</code> operator determines whether an object has a given property.</dd>
+ <dd>O operador <code>in</code> determina quando um objeto tem ou não uma determinada propriedade.</dd>
  <dt>{{jsxref("Operators/instanceof", "instanceof")}}</dt>
- <dd>The <code>instanceof</code> operator determines whether an object is an instance of another object.</dd>
+ <dd>O operador <code>instanceof</code> determina quando um objeto é uma instância de outro objeto.</dd>
  <dt>{{jsxref("Operators/Comparison_Operators", "&lt;", "#Less_than_operator")}}</dt>
  <dd>Operador "menor que".</dd>
  <dt>{{jsxref("Operators/Comparison_Operators", "&gt;", "#Greater_than_operator")}}</dt>
